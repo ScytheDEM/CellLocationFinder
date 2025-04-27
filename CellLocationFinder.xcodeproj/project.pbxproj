@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		12F1824B2DBE29B6000FFF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12F1822C2DBE29B4000FFF8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12F182332DBE29B4000FFF8A;
+			remoteInfo = CellLocationFinder;
+		};
+		12F182552DBE29B6000FFF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12F1822C2DBE29B4000FFF8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12F182332DBE29B4000FFF8A;
+			remoteInfo = CellLocationFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F182342DBE29B4000FFF8A /* CellLocationFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellLocationFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F1824A2DBE29B6000FFF8A /* CellLocationFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellLocationFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F182542DBE29B6000FFF8A /* CellLocationFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellLocationFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		12F1825C2DBE29B6000FFF8A /* Exceptions for "CellLocationFinder" folder in "CellLocationFinder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 12F182332DBE29B4000FFF8A /* CellLocationFinder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		12F182362DBE29B4000FFF8A /* CellLocationFinder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				12F1825C2DBE29B6000FFF8A /* Exceptions for "CellLocationFinder" folder in "CellLocationFinder" target */,
+			);
+			path = CellLocationFinder;
+			sourceTree = "<group>";
+		};
+		12F1824D2DBE29B6000FFF8A /* CellLocationFinderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CellLocationFinderTests;
+			sourceTree = "<group>";
+		};
+		12F182572DBE29B6000FFF8A /* CellLocationFinderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CellLocationFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12F182312DBE29B4000FFF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F182472DBE29B6000FFF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F182512DBE29B6000FFF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F1822B2DBE29B4000FFF8A = {
+			isa = PBXGroup;
+			children = (
+				12F182362DBE29B4000FFF8A /* CellLocationFinder */,
+				12F1824D2DBE29B6000FFF8A /* CellLocationFinderTests */,
+				12F182572DBE29B6000FFF8A /* CellLocationFinderUITests */,
+				12F182352DBE29B4000FFF8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12F182352DBE29B4000FFF8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12F182342DBE29B4000FFF8A /* CellLocationFinder.app */,
+				12F1824A2DBE29B6000FFF8A /* CellLocationFinderTests.xctest */,
+				12F182542DBE29B6000FFF8A /* CellLocationFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12F182332DBE29B4000FFF8A /* CellLocationFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F1825D2DBE29B6000FFF8A /* Build configuration list for PBXNativeTarget "CellLocationFinder" */;
+			buildPhases = (
+				12F182302DBE29B4000FFF8A /* Sources */,
+				12F182312DBE29B4000FFF8A /* Frameworks */,
+				12F182322DBE29B4000FFF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				12F182362DBE29B4000FFF8A /* CellLocationFinder */,
+			);
+			name = CellLocationFinder;
+			packageProductDependencies = (
+			);
+			productName = CellLocationFinder;
+			productReference = 12F182342DBE29B4000FFF8A /* CellLocationFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12F182492DBE29B6000FFF8A /* CellLocationFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F182622DBE29B6000FFF8A /* Build configuration list for PBXNativeTarget "CellLocationFinderTests" */;
+			buildPhases = (
+				12F182462DBE29B6000FFF8A /* Sources */,
+				12F182472DBE29B6000FFF8A /* Frameworks */,
+				12F182482DBE29B6000FFF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12F1824C2DBE29B6000FFF8A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12F1824D2DBE29B6000FFF8A /* CellLocationFinderTests */,
+			);
+			name = CellLocationFinderTests;
+			packageProductDependencies = (
+			);
+			productName = CellLocationFinderTests;
+			productReference = 12F1824A2DBE29B6000FFF8A /* CellLocationFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12F182532DBE29B6000FFF8A /* CellLocationFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F182652DBE29B6000FFF8A /* Build configuration list for PBXNativeTarget "CellLocationFinderUITests" */;
+			buildPhases = (
+				12F182502DBE29B6000FFF8A /* Sources */,
+				12F182512DBE29B6000FFF8A /* Frameworks */,
+				12F182522DBE29B6000FFF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12F182562DBE29B6000FFF8A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12F182572DBE29B6000FFF8A /* CellLocationFinderUITests */,
+			);
+			name = CellLocationFinderUITests;
+			packageProductDependencies = (
+			);
+			productName = CellLocationFinderUITests;
+			productReference = 12F182542DBE29B6000FFF8A /* CellLocationFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12F1822C2DBE29B4000FFF8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					12F182332DBE29B4000FFF8A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					12F182492DBE29B6000FFF8A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 12F182332DBE29B4000FFF8A;
+					};
+					12F182532DBE29B6000FFF8A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 12F182332DBE29B4000FFF8A;
+					};
+				};
+			};
+			buildConfigurationList = 12F1822F2DBE29B4000FFF8A /* Build configuration list for PBXProject "CellLocationFinder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12F1822B2DBE29B4000FFF8A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 12F182352DBE29B4000FFF8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12F182332DBE29B4000FFF8A /* CellLocationFinder */,
+				12F182492DBE29B6000FFF8A /* CellLocationFinderTests */,
+				12F182532DBE29B6000FFF8A /* CellLocationFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12F182322DBE29B4000FFF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F182482DBE29B6000FFF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F182522DBE29B6000FFF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12F182302DBE29B4000FFF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F182462DBE29B6000FFF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F182502DBE29B6000FFF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12F1824C2DBE29B6000FFF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12F182332DBE29B4000FFF8A /* CellLocationFinder */;
+			targetProxy = 12F1824B2DBE29B6000FFF8A /* PBXContainerItemProxy */;
+		};
+		12F182562DBE29B6000FFF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12F182332DBE29B4000FFF8A /* CellLocationFinder */;
+			targetProxy = 12F182552DBE29B6000FFF8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12F1825E2DBE29B6000FFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R9L8XZL3TG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CellLocationFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cell Tower Location";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aliclonsdale.CellLocationFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		12F1825F2DBE29B6000FFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R9L8XZL3TG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CellLocationFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cell Tower Location";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aliclonsdale.CellLocationFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		12F182602DBE29B6000FFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12F182612DBE29B6000FFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12F182632DBE29B6000FFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aliclonsdale.CellLocationFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellLocationFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CellLocationFinder";
+			};
+			name = Debug;
+		};
+		12F182642DBE29B6000FFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aliclonsdale.CellLocationFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellLocationFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CellLocationFinder";
+			};
+			name = Release;
+		};
+		12F182662DBE29B6000FFF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aliclonsdale.CellLocationFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CellLocationFinder;
+			};
+			name = Debug;
+		};
+		12F182672DBE29B6000FFF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aliclonsdale.CellLocationFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CellLocationFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12F1822F2DBE29B4000FFF8A /* Build configuration list for PBXProject "CellLocationFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F182602DBE29B6000FFF8A /* Debug */,
+				12F182612DBE29B6000FFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12F1825D2DBE29B6000FFF8A /* Build configuration list for PBXNativeTarget "CellLocationFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F1825E2DBE29B6000FFF8A /* Debug */,
+				12F1825F2DBE29B6000FFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12F182622DBE29B6000FFF8A /* Build configuration list for PBXNativeTarget "CellLocationFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F182632DBE29B6000FFF8A /* Debug */,
+				12F182642DBE29B6000FFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12F182652DBE29B6000FFF8A /* Build configuration list for PBXNativeTarget "CellLocationFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F182662DBE29B6000FFF8A /* Debug */,
+				12F182672DBE29B6000FFF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12F1822C2DBE29B4000FFF8A /* Project object */;
+}
